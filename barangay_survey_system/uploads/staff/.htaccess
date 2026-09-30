@@ -1,0 +1,5 @@
+# Uploaded images only - never execute anything from this folder.
+php_flag engine off
+<FilesMatch "\.(php|phtml|php3|php4|php5|php7|phps|cgi|pl|asp|aspx|shtml|sh)$">
+    Require all denied
+</FilesMatch>
